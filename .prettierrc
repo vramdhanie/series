@@ -1,0 +1,21 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 4,
+  "printWidth": 100,
+  "trailingComma": "es5",
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "jsxSingleQuote": false,
+  "quoteProps": "as-needed",
+  "bracketSpacing": true,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": ["*.yml", "*.yaml", "*.yaml.gotmpl"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
