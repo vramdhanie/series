@@ -5,5 +5,10 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
    
     providers: [
         GitHub
-        ]
+        ],
+        callbacks: {
+            authorized: async ({ auth }) => {
+              return !!auth
+            },
+          },
 })
